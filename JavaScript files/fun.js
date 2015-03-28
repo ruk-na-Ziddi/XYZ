@@ -1,0 +1,34 @@
+var Person=function(firstName,lastName) {
+	this.firstName=firstName;
+	this.lastName=lastName;
+};
+Person.prototype = {
+	toString:function() {
+		return [this.lastName,this.firstName].join(", ");
+	},
+	truncatedName:function() {
+		return this.toString().substr(0,10);
+	},
+	upperCaseName:function() {
+		return toString().toUpperCase();
+	}
+};
+var p=new Person("Aamir","Khan");
+console.log(p.toString());
+console.log(p.truncatedName());
+console.log(p.upperCaseName());
+console.log(p.__proto__);
+console.log(p.__proto__.toString());
+console.log(p.prototype);
+var p=Object.create(Person.prototype);
+console.log(p.__proto__);
+console.log(p.prototype);
+var p=new Person("Aamir","Khan");
+p.firstName="Salman";
+console.log(p.toString());
+this.firstName="Salman";
+console.log(p.toString());
+
+
+
+

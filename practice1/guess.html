@@ -1,0 +1,44 @@
+<html>
+<head>
+	<title>GuessNumber</title>
+	<link rel="stylesheet" type="text/css" href="guess.css">
+	<script type="text/javascript" src="guess.js"></script>
+</head>
+<body>
+	<div class='biggestDiv'>
+		<center><h2>Guess the Generated Number!!!</h2></center>
+		<center><h4>Click on GetInstruction to see The Limit</h4></center>
+		<div class='inputIsHere'>
+			Instuction:<br><input type='text' id='instruction' disabled>
+			<br><input type="button" value="GetInstruction" onclick="getInstrunction()">
+		</div>
+		<div class='inputIsHere'>
+			Input:<br><input type='text' id='itsInput'>
+		</div>
+		<div class='Message'>
+			Message:<br><input type='text' id='message' disabled>
+		</div><br>
+		<div class="attempts">
+			Left Attempts---:<input type="text" id="attempt" value='9' disabled>
+		</div>
+		<p>
+			<input type="button" value="1" onclick="valueOfButton('1')" id="1">
+			<input type="button" value="2" onclick="valueOfButton('2')" id="2">
+			<input type="button" value="3" onclick="valueOfButton('3')" id="3">
+			<input type="button" value="4" onclick="valueOfButton('4')" id="4">
+			<input type="button" value="5" onclick="valueOfButton('5')" id="5">
+		</p>
+		<p>
+			<input type="button" value="6" onclick="valueOfButton('6')" id="6">
+			<input type="button" value="7" onclick="valueOfButton('7')" id="7">
+			<input type="button" value="8" onclick="valueOfButton('8')" id="8">
+			<input type="button" value="9" onclick="valueOfButton('9')" id="9">
+			<input type="button" value="0" onclick="valueOfButton('0')" id="0">
+		</p>
+		<p>
+			<input type='button' value='lock It' onclick="lockIt()">
+			<input type='button' value='restart' onclick="reload()">
+		</p>
+	</div>
+</body>
+</html>

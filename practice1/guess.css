@@ -1,0 +1,35 @@
+.biggestDiv{
+	border-style: solid;
+	border-color: #3d4543;
+	margin-left: 35%;
+	background-color: #e0cda7;
+	width: 30%;
+	margin-top: 10%;
+}
+p{
+	text-align: center;
+}
+.inputIsHere{
+	margin-left: 10%;
+}
+.Message{
+	margin-left: 10%;
+}
+#itsInput{
+	width: 85%;
+}
+#message{
+	width:85%;
+}
+#instruction{
+	width:85%;
+	font-weight: bold;
+}
+.attempts{
+	margin-left: 20%;
+}
+#attempt{
+	height: 3%;
+	width: 10%;
+	font-weight: bold;
+};

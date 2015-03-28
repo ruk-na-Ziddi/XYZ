@@ -1,0 +1,26 @@
+extends layout
+block vars
+ - var title = "Register"
+
+block content
+  h1 Register your account
+  if error
+   p ERROR: #{error}
+  form(action="/register" method="POST")
+   span 
+    |First Name:
+    input(type="text" name="firstName" required)
+   br
+   span 
+    |Last Name:
+    input(type="text" name="lastName" required)
+   br
+   span 
+    |Email:
+    input(type="email" name="email" required)
+   br
+   span 
+    |Password:
+    input(type="password" name="password" required)
+   br
+   input(type="submit" value="Register")

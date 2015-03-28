@@ -1,0 +1,17 @@
+**Break 5 digit code made with digits 1 to 8 within 12 attempts***
+
+[done]	Get code scaffold ready
+	folder, bash, sublime, runtest, main, structure, functionlib, test
+Generate 5 digit code made with digits 1 to 8
+User Interface 
+	User input
+Input validation
+	based on type and length
+Count confirm and present digits from input
+Update number of left attempts
+Time the game
+Show previous and current status 
+	All input guesses,confirm,present,attempts,time
+Show final result
+	Loose or Win
+Intergrate the parts of game

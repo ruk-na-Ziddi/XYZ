@@ -1,0 +1,5 @@
+[
+	{"Q":"what is your name","A":"ankur"},
+	{"Q":"what is your age","A":"19"},
+	{"Q":"how many teeth do you have","A":"28"}
+]
